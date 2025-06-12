@@ -1,0 +1,82 @@
+CEO	zuzendari nagusi
+accountant	kontulari
+administrator	administratzaile
+advisor	aholkulari
+analyst	analista
+appraiser	tasatzaile
+architect	arkitekto
+assistant	laguntzaile
+attendant	laguntzaile
+auditor	auditore
+baker	okin
+bartender	tabernari
+broker	burtsako agente
+carpenter	arotz
+cashier	kutxazain
+chef	chef
+chemist	kimikari
+chief	nagusi
+cleaner	garbitzaile
+clerk	administrari, bulegari
+construction worker	eraikuntzako langile
+cook	sukaldari
+counselor	orientatzaile
+customer	bezero
+designer	diseinatzaile
+developer	informatikari
+dietitian	dietista
+dispatcher	larrialdietako operadore
+doctor	mediku
+driver	gidari
+editor	editore
+educator	hezitzaile
+electrician	elektrikari
+engineer	ingeniari
+examiner	forentse
+farmer	nekazari
+firefighter	suhiltzaile
+guard	guardia, bizakartzain
+hairdresser	ile-apaintzaile
+housekeeper	etxeko langile
+hygienist	higienista
+inspector	ikuskatzaile
+instructor	instruktore
+investigator	ikertzaile
+janitor	atezain
+laborer	peoi
+lawyer	abokatu
+librarian	liburuzain
+machinist	makina-operadore
+manager	arduradun
+mechanic	mekanikari
+mover	garraiolari
+nurse	erizain
+nutritionist	nutrizionista
+officer	agente
+painter	margolari
+paralegal	abokatu-laguntzaile
+paramedic	sanitario
+pathologist	patologo
+pharmacist	botikari
+physician	sendagile
+planner	hirigile
+plumber	iturgin
+practitioner	profesional
+programmer	programatzaile
+psychologist	psikologo
+receptionist	harreragile
+salesperson	saltzaile
+scientist	zientzialari
+secretary	idazkari
+sheriff	ertzain
+specialist	espezialista
+student	ikasle
+supervisor	gainbegirale
+surgeon	zirujau
+tailor	sastre
+teacher	irakasle
+technician	teknikari
+therapist	terapeuta
+veterinarian	albaitari
+worker	langile
+writer	idazle
