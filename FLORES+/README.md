@@ -4,9 +4,10 @@ Based on [FLORES+] (https://huggingface.co/datasets/openlanguagedata/flores_plus
 ## Data Structure
 Each file consists of 359 annotated sentences and is structured as follows:
     - **Sentence.** The sentence in the gender of the file to which it belongs.
-* **Treatment.** This column indicates whether the sentence is in its original form or has been modified for gender: O (Original) and M (Modified).
-- O = Original  
-- M = Modified
+
+* **Treatment.** Indicates whether the sentence is in its original form or has been modified to reflect gender:
+  - **O**: Original
+  - **M**: Modified
 * **Multi-entity.** This column specifies whether the sentence contains more than one gendered entity: 0 (not multi-entity) and 1 (multi-entity).
 * **Proper names.** This column is used to indicate whether the gendered entity that was modified is a personal name: 0 (non-proper name) and 1 (proper name).
 * **Sensitive names.** Some proper names are problematic to modify due to their strong public recognition, such as George Bush. In such cases, the full name should be replaced with a plausible alternative of the opposite gender, provided the context allows for it and the substitution does not introduce confusion or implausibility.
