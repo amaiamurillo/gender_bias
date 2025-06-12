@@ -3,7 +3,7 @@ Based on [FLORES+] (https://huggingface.co/datasets/openlanguagedata/flores_plus
 
 ## Data Structure
 Each file consists of 359 annotated sentences and is structured as follows:
-* **Sentence.** The sentence in the gender of the file to which it belongs.
+    - **Sentence.** The sentence in the gender of the file to which it belongs.
 * **Treatment.** This column indicates whether the sentence is in its original form or has been modified for gender: O (Original) and M (Modified).
 - O = Original  
 - M = Modified
