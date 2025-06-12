@@ -1,4 +1,4 @@
-# FLORES+
+# FLORES+Gender
 Based on [FLORES+](https://huggingface.co/datasets/openlanguagedata/flores_plus/viewer/spa_Latn/devtest), we have created a new version to evaluate whether the quality of the translation is affected by the predominant grammatical gender of the source sentence when translating from a gendered language (Spanish) into a genderless language (Basque). For this purpose, we divide the original dataset into two separate files: **Flores_ES_M.txt**, containing all the sentences of the dataset in masculine form, and **Flores_ES_F.txt**, containing the same sentences in feminine form. 
 
 ## Data Structure
