@@ -2,13 +2,14 @@
 Based on [FLORES+] (https://huggingface.co/datasets/openlanguagedata/flores_plus), we have created a new version to evaluate whether the quality of the translation is affected by the predominant grammatical gender of the source sentence when translating from a gendered language (Spanish) into a genderless language (Basque). For this purpose, we divide the original dataset into two separate files: **Flores_ES_M.txt**, containing all the sentences of the dataset in masculine form, and **Flores_ES_F.txt**, containing the same sentences in feminine form. 
 
 ## Data Structure
-* Sentence
-* Treatment
-* Multi-entity
-* Proper names
-* Sensitive names
-* Unmarked masculine
-* Sensitive instances
+Each file consists of 359 annotated sentences and is structured as follows:
+* **Sentence.** The sentence in the gender of the file to which it belongs.
+* **Treatment.** This column indicates whether the sentence is in its original form or has been modified for gender: O (Original) and M (Modified).
+* **Multi-entity.** This column specifies whether the sentence contains more than one gendered entity: 0 (not multi-entity) and 1 (multi-entity).
+* **Proper names.** This column is used to indicate whether the gendered entity that was modified is a personal name: 0 (non-proper name) and 1 (proper name).
+* **Sensitive names.** Some proper names are problematic to modify due to their strong public recognition, such as George Bush. In such cases, the full name should be replaced with a plausible alternative of the opposite gender, provided the context allows for it and the substitution does not introduce confusion or implausibility.
+* **Unmarked masculine.** 
+* **Sensitive instances.** In this column, we indicate whether the instance is problematic or sensitive: 0 (no issue), 1 (sensitive) and 2 (highly sensitive).
 
 
 ## Citation
