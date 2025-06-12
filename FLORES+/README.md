@@ -32,7 +32,8 @@ For the evaluation, we recommend using [SacreBLEU](https://github.com/mjpost/sac
 The following command evaluates system outputs against a reference file using multiple metrics:
 
 ```bash
-python3 -m sacrebleu -m bleu chrf ter --chrf-word-order 2 --ter-case-sensitive --ter-normalized --score-only {REFERENCE} < {TRANSLATION}```
+python3 -m sacrebleu -m bleu chrf ter --chrf-word-order 2 --ter-case-sensitive --ter-normalized --score-only {REFERENCE} < {TRANSLATION}
+```
 
 
 ## Citation
