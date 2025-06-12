@@ -3,7 +3,9 @@
 WinoMTeus is a translated subset of [WinoMT](https://github.com/gabrielStanovsky/mt_gender) that consists of 1,000 sentences. The aim of this adaptation is to evaluate gender stereotypes that emerge when translating sentences involving professions from a genderless language like Basque into a gendered language such as Spanish. This folder also contains the glossary we used to translate the occupations from the original dataset in English to Basque to preserve consistency.
 
 ## Evaluation
-work-in-progress
+1. Extract nouns preceded by articles (`extract_entities.py`).
+2. Manually remove nouns that do not refer to occupations.
+3. 
 
 ## Citation
 
