@@ -4,6 +4,8 @@ WinoMTeus is a translated subset of [WinoMT](https://github.com/gabrielStanovsky
 
 ## Citation
 
+If you use WinoMTeus in your work, please make sure to also cite the original WinoMT paper:
+
 ```bibtex
 @misc{stanovsky2019evaluatinggenderbiasmachine,
       title={Evaluating Gender Bias in Machine Translation}, 
