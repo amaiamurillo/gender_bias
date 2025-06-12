@@ -24,6 +24,16 @@ Each file consists of 359 annotated sentences and is structured as follows:
   - **0**: No issue
   - **1**: Sensitive
   - **2**: Highly sensitive
+ 
+## Evaluation
+
+For the evaluation, we recommend using [SacreBLEU](https://github.com/mjpost/sacrebleu), a standardized and widely-used library for machine translation evaluation.
+
+The following command evaluates system outputs against a reference file using multiple metrics:
+
+```bash
+python3 -m sacrebleu -m bleu chrf ter --chrf-word-order 2 --ter-case-sensitive --ter-normalized --score-only {REFERENCE} < {TRANSLATION}
+
 
 ## Citation
 
