@@ -27,12 +27,11 @@ Each file consists of 359 annotated sentences and is structured as follows:
  
 ## Evaluation
 
-For the evaluation, we recommend using [SacreBLEU](https://github.com/mjpost/sacrebleu), a standardized and widely-used library for machine translation evaluation.
+For the evaluation, after translating the Spanish sentences into Basque using the machine translation systems under evaluation, the resulting translations are compared against the reference translations, the official [Basque](https://huggingface.co/datasets/openlanguagedata/flores_plus/viewer/eus_Latn/devtest) version from the FLORES+ dataset. To assess translation quality, we compute several automatic metrics including **BLEU**, **chrF**, and **TER**. To this end, we recommend using [SacreBLEU](https://github.com/mjpost/sacrebleu), a standardized and widely-used library for machine translation evaluation. 
 
-The following command evaluates system outputs against a reference file using multiple metrics:
 
 ```bash
-python3 -m sacrebleu -m bleu chrf ter --chrf-word-order 2 --ter-case-sensitive --ter-normalized --score-only {REFERENCE} < {TRANSLATION}
+python -m sacrebleu -m bleu chrf ter --chrf-word-order 2 --ter-case-sensitive --ter-normalized --score-only {REFERENCE} < {TRANSLATION}
 ```
 
 
