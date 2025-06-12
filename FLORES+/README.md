@@ -6,18 +6,22 @@ Each file consists of 359 annotated sentences and is structured as follows:
     - **Sentence.** The sentence in the gender of the file to which it belongs.
 
 * **Treatment.** Indicates whether the sentence is in its original form or has been modified to reflect gender:
-  - **O**: original
-  - **M**: modified
+  - **O**: Original
+  - **M**: Modified
 * **Multi-entity.** This column specifies whether the sentence contains more than one gendered entity:
-  - **0**: not multi-entity
-  - **1**: multi-entity
+  - **0**: Not multi-entity
+  - **1**: Multi-entity
 * **Proper names.** This column is used to indicate whether the gendered entity that was modified is a personal name:
-  - **0**: not proper name
-  - **1**: proper name
+  - **0**: Not proper name
+  - **1**: Proper name
 * **Sensitive names.** Some proper names are problematic to modify due to their strong public recognition, such as George Bush. In such cases, the full name should be replaced with a plausible alternative of the opposite gender, provided the context allows for it and the substitution does not introduce confusion or implausibility.
-* **Unmarked masculine.** 
-* **Sensitive instances.** In this column, we indicate whether the instance is problematic or sensitive: 0 (no issue), 1 (sensitive) and 2 (highly sensitive).
-
+* **Unmarked masculine.** It indicates whether the masculine form used is unmarked.
+  - **0**: Gender is explicitly marked
+  - **1**: Masculine form is unmarked or generic
+* **Sensitive instances.** In this column, we indicate whether the instance is problematic or sensitive:
+  - **0**: No issue
+  - **1**: Sensitive
+  - **2**: Highly sensitive
 
 ## Citation
 
