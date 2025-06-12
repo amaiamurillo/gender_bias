@@ -5,12 +5,12 @@ WinoMTeus is a translated subset of [WinoMT](https://github.com/gabrielStanovsky
 ## Citation
 
 ```bibtex
-@misc{stafanovičs2020mitigatinggenderbiasmachine,
-      title={Mitigating Gender Bias in Machine Translation with Target Gender Annotations}, 
-      author={Artūrs Stafanovičs and Toms Bergmanis and Mārcis Pinnis},
-      year={2020},
-      eprint={2010.06203},
+@misc{stanovsky2019evaluatinggenderbiasmachine,
+      title={Evaluating Gender Bias in Machine Translation}, 
+      author={Gabriel Stanovsky and Noah A. Smith and Luke Zettlemoyer},
+      year={2019},
+      eprint={1906.00591},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2010.06203}, 
+      url={https://arxiv.org/abs/1906.00591}, 
 }
