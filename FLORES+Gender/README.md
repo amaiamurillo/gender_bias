@@ -25,6 +25,8 @@ Each file consists of 359 annotated sentences and is structured as follows:
   - **1**: Sensitive
   - **2**: Highly sensitive
  
+This release includes only the subset of gender-annotated sentences from the original FLORES+ dataset. If you are interested in accessing the full annotated version with all 1,012 sentences, feel free to contact me at [amaia.murillo@ehu.eus].
+ 
 ## Evaluation
 
 For the evaluation, after translating the Spanish sentences into Basque using the machine translation systems under evaluation, the resulting translations are compared against the reference translations, the official [Basque](https://huggingface.co/datasets/openlanguagedata/flores_plus/viewer/eus_Latn/devtest) version from the FLORES+ dataset. To assess translation quality, we compute several automatic metrics including **BLEU**, **chrF**, and **TER**. To this end, we recommend using [SacreBLEU](https://github.com/mjpost/sacrebleu), a standardized and widely-used library for machine translation evaluation. 
